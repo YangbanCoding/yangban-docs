@@ -20,6 +20,6 @@ npx pod-install
 ```
 
 ## 개발 패키지 설치
-```bash
-yarn add --dev babel-plugin-module-resolver
+```bash 
+yarn add --dev babel-plugin-module-resolver eslint-plugin-react eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise
 ```
