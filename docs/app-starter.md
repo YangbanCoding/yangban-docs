@@ -31,3 +31,19 @@ API_ENDPOINT=http://localhost:8080/v1/graphql
 API_ENDPOINT_GENYMOTION=http://10.0.3.2:8080/v1/graphql
 KEY_NAME=[키 저장소 이름]
 ```
+
+## babel 설정 
+- babel.config.js
+```javascript
+module.exports = {
+  presets: ['module:metro-react-native-babel-preset'],
+  plugins: [
+    [
+      'babel-plugin-module-resolver', {
+        root: ['./src']
+      }
+    ],
+    ['module:react-native-dotenv']
+  ]
+};
+```
