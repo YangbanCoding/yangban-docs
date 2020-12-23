@@ -47,3 +47,16 @@ module.exports = {
   ]
 };
 ```
+
+## vscode 설정
+- jsconfig.json
+```json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"]
+    }
+  }
+}
+```
