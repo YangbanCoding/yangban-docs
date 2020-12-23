@@ -23,3 +23,11 @@ npx pod-install
 ```bash 
 yarn add --dev babel-plugin-module-resolver eslint-plugin-react eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise
 ```
+
+## 환경 변수 설정하기
+- .env 파일
+```
+API_ENDPOINT=http://localhost:8080/v1/graphql
+API_ENDPOINT_GENYMOTION=http://10.0.3.2:8080/v1/graphql
+KEY_NAME=[키 저장소 이름]
+```
