@@ -4,9 +4,6 @@
 - [구글 플레이](https://play.google.com/store/apps/details?id=com.yangbancoding.ybtalk)
 - [앱 스토어](https://testflight.apple.com/join/Zlc4Yfd3)
 
-## 요구사항
-- 실시간으로 채팅이 가능한 앱을 만들고 싶다!
-
 ## 개발 순서
 1. 요구 사항 파악
 2. 핵심 기능 선정
@@ -16,6 +13,9 @@
 6. 스타일링 (CSS)
 7. 기능 구현 (Javscript)
 8. 테스트
+
+## 요구사항
+- 실시간으로 채팅이 가능한 앱을 만들고 싶다!
 
 ## 주요 기능
 - 소셜 로그인
