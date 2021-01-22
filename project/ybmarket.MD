@@ -19,21 +19,21 @@
 11. 구매 내역 화면
 12. 거래 완료 화면
 
-## DB 테이블
-- [user]\(id, phoneNumber, pushToken\)
-- [product]\(id, isSold, name, price, text\)
-- [chat]\(id, text\)
-- [chatRoom]\(id\)
+## 데이터
+- 유저
+- 상품
+- 채팅
+- 채팅방
 
 ## 테이블 관계
-- one to many
-  - buyProduct [user] -> [product] 
-  - sellProduct [user] -> [product]
-  - chats [user] -> [chat]
-  - chats [chatRoom] -> [chat]
-  - productChatRooms [product] -> [chatRoom]
-- many to many
-  - userChatRooms [user] -> [chatRoom]
+- 일 대 다
+  - 유저가 구매한 상품 [유저] -> [상품] 
+  - 유저가 판매 상품 [유저] -> [상품]
+  - 유저가 쓴 채팅 [유저] -> [채팅]
+  - 채팅방 안의 채팅 [채팅방] -> [채팅]
+  - 상품에 대한 채팅방 [상품] -> [채팅방]
+- 다 대 다
+  - [유저] -> [채팅방]
 
 ## 테스트
 - 상품 등록
